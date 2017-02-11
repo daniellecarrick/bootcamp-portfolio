@@ -67,6 +67,13 @@ h1 {
   width: 30%;
 }
 
+/*Section 2 and 3 specific styles*/
+
+.images img {
+	width: 20%;
+	padding-left: 2%;
+}
+
 /*Style for menu links*/
 
 /*Strip the ul of padding and list styling*/
@@ -158,6 +165,10 @@ ul li a:hover + .hidden, .hidden:hover {
 	/*Make all menu links full width*/
 	ul li, li a {
 		width: 100%;
+	}
+
+	.images img {
+		width: 45%;
 	}
 }
 
