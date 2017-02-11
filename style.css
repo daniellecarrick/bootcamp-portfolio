@@ -173,10 +173,11 @@ ul li a:hover + .hidden, .hidden:hover {
 
 /*Responsive Styles*/
 
-@media screen and (max-width : 760px){
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	/*Make the fonts smaller*/
 	body {
 		font-size: 1em;
+		color: red;
 	}
 
 	/*Make dropdown links appear inline*/
@@ -196,7 +197,31 @@ ul li a:hover + .hidden, .hidden:hover {
 	.images img {
 		width: 45%;
 	}
+
+	.column-3 {
+		float: none;
+		margin: 0 auto 3% auto;
+		width: 70%;
+	}
+
+	.column-container {
+		position: inherit;
+	}
+
+	.number {
+		font-size: 11em;
+	}
+
+	.description {
+		font-size: 2em;
+	}
+
+	h3 {
+		font-size: 3em;
+	}
+
 }
+
 
 /*css reset*/
 html,body{margin:0; padding:0;}
