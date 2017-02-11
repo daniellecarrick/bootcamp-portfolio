@@ -20,6 +20,14 @@ html,body {
 	text-align: center;
 }
 
+.intro h1 {
+	margin-bottom: 4%;
+}
+
+.intro h3 {
+	font-size: 1.5em;
+}
+
 .column-container {
 	width: 100%;
 	position: absolute;
@@ -53,7 +61,11 @@ html,body {
 	margin: 0;
 	padding: 5%;
 	background-color: #303030;
-	margin-bottom: 10%;
+	margin-bottom: 6%;
+}
+
+.title h1 {
+	margin-bottom: 2%;
 }
 
 h1, h2, h3 {
@@ -63,7 +75,7 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 3.5em;
+	font-size: 3em;
 	font-family: 'Bree Serif', serif;
 	margin-bottom: 0px;
 	margin-top: 1%;
