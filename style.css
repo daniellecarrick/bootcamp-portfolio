@@ -1,18 +1,19 @@
-html,body,section {
+html,body {
 	height:100%;
 	font-family: 'Open Sans', sans-serif;
 }
 
-section {
+/*section {
  	background-repeat:no-repeat;
  	background-size:cover;
-}
+}*/
 
 .intro {
   /*background-image: url(images/intro.jpg);*/
  	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/intro.jpg);
  	background-size:cover;
  	color: white;
+ 	height: 100%;
 }
 
 .intro .column-3 {
