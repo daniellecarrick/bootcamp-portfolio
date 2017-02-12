@@ -28,6 +28,23 @@ html,body {
 	font-size: 1.5em;
 }
 
+.intro .circle {
+     height:45px;
+     width:90px;
+     border-radius: 90px 90px 0 0;
+     -moz-border-radius: 90px 90px 0 0;
+     -webkit-border-radius: 90px 90px 0 0;
+     background: white;
+     position: absolute;
+     bottom: 0;
+     left: 45%;
+     opacity: .5;
+     font-family: Arial;
+     text-align: center;
+     color: black;
+     font-size: 30px;
+}
+
 .column-container {
 	width: 100%;
 	position: absolute;
@@ -59,8 +76,8 @@ html,body {
 
 .title {
 	margin: 0;
-	padding: 5%;
-	background-color: #303030;
+	padding: 3% 5% 5% 5%;
+	background-color: #172027;
 	margin-bottom: 6%;
 }
 
@@ -91,13 +108,11 @@ a {
 	color: white;
 }
 
-
 .column-3 {
   position: relative;
   min-height: 1px;
-  padding-right: 1%;
-  padding-left: 2%;
-  margin-left:;
+  margin-right: 1%;
+  margin-left: 1%;
   float: left;
   width: 30%;
 }
